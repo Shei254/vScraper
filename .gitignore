@@ -30,3 +30,11 @@
 *.exe
 *.out
 *.app
+
+.vs
+
+X64
+X32
+
+#Object files
+*.obj

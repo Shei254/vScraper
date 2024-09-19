@@ -1,0 +1,11 @@
+#pragma once
+enum CONTENT_ENCODING {
+	CONTENT_LENGTH,
+	CHUNKED,
+	CONNECTION // fail safe
+};
+
+enum CONTENT_TYPE {
+	APPLICATION_JSON,
+	TEXT_PLAIN,
+};
