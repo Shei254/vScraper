@@ -133,10 +133,13 @@
     <ClCompile Include="AVL.cpp" />
     <ClCompile Include="EventLoop.cpp" />
     <ClCompile Include="FSM.cpp" />
+    <ClCompile Include="HTMLParser.cpp" />
     <ClCompile Include="HTTPClient.cpp" />
     <ClCompile Include="Source.cpp" />
+    <ClCompile Include="TagState.cpp" />
     <ClCompile Include="TCPClient.cpp" />
     <ClCompile Include="TCPCommon.cpp" />
+    <ClCompile Include="TextState.cpp" />
     <ClCompile Include="ThreadPool.cpp" />
     <ClCompile Include="ThreadQueue.cpp" />
     <ClCompile Include="VScraper.cpp" />
@@ -149,6 +152,7 @@
     <ClInclude Include="Common.h" />
     <ClInclude Include="EventLoop.h" />
     <ClInclude Include="FSM.h" />
+    <ClInclude Include="HTMLParser.h" />
     <ClInclude Include="HTMLParserContext.h" />
     <ClInclude Include="HTTPClient.h" />
     <ClInclude Include="State.h" />

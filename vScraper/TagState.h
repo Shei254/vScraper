@@ -1,18 +1,12 @@
 #pragma once
 #include <optional>
-#include <memory>
-
-#include "FSM.h"
-#include "State.h"
+#include <variant>
 #include "HTMLParserContext.h"
 
+
+struct TextState;
 struct TagState
 {
-public:
-	void update(HTMLParserContext& context) {
-		while (!context.isEnd() && context.currentChar() != '>') {
-			context.advance();
-		}
-	}
+	void update(HTMLParserContext& context);
 };
 

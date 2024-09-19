@@ -3,13 +3,13 @@
 #include <optional>
 
 
+
 template <class Context, class ...States >
 class FSM
 {
-public:
 	using StateVariant = std::variant<States...>;
 	using OptionalStateVariant = std::optional<StateVariant>;
-
+public:
 	virtual ~FSM() = default;
 
 	explicit FSM(StateVariant&& initialState, Context&& context);
@@ -33,11 +33,11 @@ inline void FSM<Context, States...>::update()
 {
 	std::visit([&context = _context](auto& state) {
 		state.update(context);
-		}, _curState);
+	}, _curState);
 
 	auto newState = std::visit([&context = _context](auto& state) {
 		return transition(state, context);
-		}, _curState);
+	}, _curState);
 
 	if (newState) {
 		_curState = std::move(newState.value());
