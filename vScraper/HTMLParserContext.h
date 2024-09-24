@@ -59,5 +59,9 @@ public:
 	HTMLNode* getCurrentNode() {
 		return currentNode;
 	}
+
+	int getCurreontPosition() {
+		return _position;
+	}
 };
 

@@ -131,6 +131,7 @@
   <ItemGroup>
     <ClCompile Include="AsyncNetIOWin.cpp" />
     <ClCompile Include="AVL.cpp" />
+    <ClCompile Include="CloseTagState.cpp" />
     <ClCompile Include="EventLoop.cpp" />
     <ClCompile Include="FSM.cpp" />
     <ClCompile Include="HTMLParser.cpp" />
@@ -150,6 +151,7 @@
     <ClInclude Include="AsyncNetIOWin.h" />
     <ClInclude Include="AttributeState.h" />
     <ClInclude Include="AVL.h" />
+    <ClInclude Include="CloseTagState.h" />
     <ClInclude Include="Common.h" />
     <ClInclude Include="EventLoop.h" />
     <ClInclude Include="FSM.h" />
@@ -165,6 +167,7 @@
     <ClInclude Include="TextState.h" />
     <ClInclude Include="ThreadPool.h" />
     <ClInclude Include="ThreadQueue.h" />
+    <ClInclude Include="Transitions.h" />
     <ClInclude Include="VScraper.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

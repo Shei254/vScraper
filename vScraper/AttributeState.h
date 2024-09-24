@@ -3,7 +3,7 @@
 
 struct AttributeState {
 	void update(HTMLParserContext& context) {
-		if (!context.isEnd() && !context.currentChar() != '>') {
+		while (!context.isEnd() && context.currentChar() != '>' && context.currentChar() != ' ') {
 			context.advance();
 		}
 	}
