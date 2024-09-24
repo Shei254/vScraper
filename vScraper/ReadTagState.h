@@ -1,9 +1,6 @@
 #pragma once
 #include "HTMLParserContext.h"
 
-struct TextState;
-struct TagState
-{
+struct ReadTagState {
 	void update(HTMLParserContext& context);
 };
-

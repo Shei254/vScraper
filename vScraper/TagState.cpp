@@ -4,7 +4,7 @@
 
 void TagState::update(HTMLParserContext& context)
 {
-	while (!context.isEnd() && context.currentChar() != '>' && context.currentChar() != ' ') {
+	while (!context.isEnd() && context.currentChar() != '<') {
 		context.advance();
 	}
 }
