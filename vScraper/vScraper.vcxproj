@@ -132,6 +132,7 @@
     <ClCompile Include="AsyncNetIOWin.cpp" />
     <ClCompile Include="AVL.cpp" />
     <ClCompile Include="CloseTagState.cpp" />
+    <ClCompile Include="CMemoryPool.cpp" />
     <ClCompile Include="EventLoop.cpp" />
     <ClCompile Include="FSM.cpp" />
     <ClCompile Include="HTMLParser.cpp" />
@@ -152,6 +153,7 @@
     <ClInclude Include="AttributeState.h" />
     <ClInclude Include="AVL.h" />
     <ClInclude Include="CloseTagState.h" />
+    <ClInclude Include="CMemoryPool.h" />
     <ClInclude Include="Common.h" />
     <ClInclude Include="EventLoop.h" />
     <ClInclude Include="FSM.h" />
@@ -160,6 +162,7 @@
     <ClInclude Include="HTMLParserContext.h" />
     <ClInclude Include="HTTPClient.h" />
     <ClInclude Include="ReadTagState.h" />
+    <ClInclude Include="SMemoryChunk.h" />
     <ClInclude Include="State.h" />
     <ClInclude Include="TagState.h" />
     <ClInclude Include="TCPClient.h" />

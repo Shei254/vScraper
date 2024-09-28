@@ -63,6 +63,9 @@
     <ClCompile Include="CloseTagState.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="CMemoryPool.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AVL.h">
@@ -129,6 +132,12 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="CloseTagState.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SMemoryChunk.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CMemoryPool.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
